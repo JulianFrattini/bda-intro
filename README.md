@@ -22,6 +22,7 @@ The material is based on the seminal work of Judea Pearl[^1] and Richard McElrea
 | v2.0 | 2025-04-28 | Tutorial at the [RE'25 conference](https://conf.researchr.org/track/RE-2025/RE-2025-tutorials) | Julian Frattini, [Hans-Martin Heyn](https://martinheyn.github.io/), [Robert Feldt](https://www.cse.chalmers.se/~feldt/), [Richard Torkar](https://torkar.github.io/) | [2025-04-28-tutorial-reconf.pdf](slides/pdf/2025-04-28-tutorial-reconf.pdf) |
 | v2.1 | 2026-01-20 | Guest lecture and seminar at [TUM Heilbronn](https://chn.tum.de/de/), Germany | Julian Frattini | [2026-01-20-guestlecture-tum.pdf](slides/pdf/2026-01-20-guestlecture-tum.pdf) and [2026-01-20-seminar-tum.pdf](slides/presentations/2026-01-20-seminar-tum.pptx) |
 | v2.2 | 2026-03-18 | Seminar in Robert Feldt's research group | Julian Frattini | [2026-03-18-seminar-feldt.pdf](slides/pdf/2026-03-18-seminar-feldt.pdf) |
+| v3.0 | 2026-05-12 | Guest lecture at [TH Nürnberg](https://www.th-nuernberg.de/) | Julian Frattini | [2026-05-12-ohm-guestlecture1](slides/pdf/2026-05-12-ohm-guestlecture1.pdf), [2026-05-12-ohm-guestlecture2](slides/pdf/2026-05-12-ohm-guestlecture2.pdf), [2026-05-12-ohm-guestlecture3](slides/pdf/2026-05-12-ohm-guestlecture3.pdf) | 
 
 ## Structure
 
@@ -39,7 +40,10 @@ The repository contains the following directories and files.
 │       ├── 2025-04-28-tutorial-reconf.pptx: conference tutorial introducing to SCI
 │       ├── 2026-01-20-guestlecture-tum.pptx: guest lecture introducing to SCI
 │       ├── 2026-01-20-seminar-tum.pptx: guest lecture focusing on causal modeling
-│       └── 2026-03-18-seminar-feldt.pptx: seminar focusing on DAGs
+│       ├── 2026-03-18-seminar-feldt.pptx: seminar focusing on DAGs
+│       ├── 2026-05-12-ohm-guestlecture1.pptx: guest lecture focusing on internal and external validity
+│       ├── 2026-05-12-ohm-guestlecture2.pptx: guest lecture focusing on construct validity
+│       └── 2026-05-12-ohm-guestlecture3.pptx: guest lecture focusing on conclusion validity
 └── src : source code to follow along the examples
 │   ├── basics : description of fundamental concepts
 │   │   ├── regression.Rmd : demonstration of the basic statistical analysis tool
@@ -85,7 +89,8 @@ Then, ensure the following steps:
 ## License
 
 Copyright © 2024 Julian Frattini. 
-This work is licensed under the [Apache-2.0](./LICENSE) License.
+The source code is licensed under the [Apache-2.0](./LICENSE) License.
+The text and presentations are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 [^1]: Pearl, J., & Mackenzie, D. (2018). The book of why: the new science of cause and effect. Basic books.
 [^2]: McElreath, R. (2018). Statistical rethinking: A Bayesian course with examples in R and Stan. Chapman and Hall/CRC.
